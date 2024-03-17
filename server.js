@@ -8,7 +8,7 @@ const port = 3000;
 // Parse JSON bodies
 app.use(bodyParser.json());
 
-// Configure Telnyx API client
+// Configure Telnyx API clientgit status
 const telnyxApiKey = process.env.PVT_KEY;
 const publicKey = process.env.PUB_KEY;
 const telnyx = Telnyx(telnyxApiKey);
